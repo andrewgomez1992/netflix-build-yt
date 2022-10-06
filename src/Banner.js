@@ -41,12 +41,7 @@ const Banner = () => {
                     <button className="banner_button">My List</button>
                 </div>
                 <h1 className="banner_description">
-                    {truncate(`This is a test descriptionThis is a test 
-                    description This is a test descriptionThis is a test description
-                    This is a test descriptionThis is a test description
-                    This is a test descriptionThis is a test description
-                    This is a test descriptionThis is a test description
-                    This is a test descriptionThis is a test description`, 150)}
+                    {truncate(movie?.overview, 150)}
                 </h1>
             </div>
 
