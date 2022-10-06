@@ -2,6 +2,11 @@ import React from 'react'
 import './Banner.css'
 
 const Banner = () => {
+
+    // function truncate(string, n) {
+    //     return string?.length
+    // }
+
     return (
         <header className='banner' style={{
             backgroundSize: "cover",
