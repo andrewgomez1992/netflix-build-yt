@@ -28,6 +28,13 @@
     object-fit: contain;
     padding-left: 20px;
     cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 450ms
+}
+
+.nav_logo:hover {
+    transform: scale(1.4);
+    opacity: 1;
 }
 
 .nav_avatar {
@@ -35,4 +42,12 @@
     right: 20px;
     width: 30px;
     cursor: pointer;
+    transition: transform 450ms;
+    border-radius: .5em;
+    border: 2px solid #fff
+}
+
+.nav_avatar:hover {
+    transform: scale(1.3);
+    opacity: 1;
 }
