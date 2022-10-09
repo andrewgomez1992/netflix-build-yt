@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 20px;
     opacity: 0.8;
+    overflow: hidden
 }
 
 .plansScreen_plan:hover {
@@ -17,4 +18,12 @@
     border: none;
     font-weight: 600;
     cursor: pointer;
+}
+
+.plansScreen_plan--disabled > button {
+    background-color: gray !important;
+}
+
+.plansScreen_renewal {
+    padding-top: 2%;
 }
